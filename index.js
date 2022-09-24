@@ -46,14 +46,14 @@ const fetchNewPictures = async () => {
     }
 }
  
-/*setInterval(fetchNewPictures, 10000)*/
+/*setInterval(fetchNewPictures, 10000)  */
 
 const fetchCoinData = async () => {
     const coinId = [
-        "bitcoin",
-        "dogecoin",
-        "ethereum",
-        "litecoin"]
+        "Bitcoin",
+        "Dogecoin",
+        "Ethereum",
+        "Litecoin"]
 
    let string = "" 
 
@@ -83,7 +83,7 @@ const fetchCoinData = async () => {
     document.querySelector(".crypo").innerHTML = string
 }
 
-
+/* */
 
     const getTimeDate = () => {
         const today = new Date()
