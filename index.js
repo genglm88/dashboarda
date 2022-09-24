@@ -50,10 +50,10 @@ const fetchNewPictures = async () => {
 
 const fetchCoinData = async () => {
     const coinId = [
-        "Bitcoin",
-        "Dogecoin",
-        "Ethereum",
-        "Litecoin"]
+        "bitcoin",
+        "dogecoin",
+        "ethereum",
+        "litecoin"]
 
    let string = "" 
 
