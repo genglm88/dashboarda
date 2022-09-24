@@ -1,0 +1,90 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'Oxygen', sans-serif;
+    background:  no-repeat center center fixed; 
+    animation:  fadeIn 5s;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+   /* text-shadow: 1px 1px 2px #474747;*/
+    text-shadow: 0px 0px 20px #aaaaaa;
+    font-size: 1rem;
+  
+  }
+
+  @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+main {
+    padding: .8em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.top-section,
+.bottom-section,
+.weather {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+ 
+}
+
+.author,
+.date {
+    width: 15vw;
+}
+
+.date{
+text-align: right;
+}
+
+.city {
+    font-size: 1.2em;
+}
+.weather {
+
+    margin-top: -1.5em;
+}
+
+.temp-wind {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:0;
+    padding:0;
+    margin-left: -1em;
+
+}
+.time-display {
+    text-align: center;
+}
+
+.coin-display {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.coin-display span {
+    margin-left: .5em;
+}
